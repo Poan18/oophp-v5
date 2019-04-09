@@ -15,13 +15,13 @@ return [
         "data" => [
             "baseTitle" => " | oophp",
             "bodyClass" => null,
-            "favicon" => "favicon.ico",
+            "favicon" => "image/theme/coding_64x64.png",
             "htmlClass" => null,
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/dbwebb-se.min.css",
-                //"css/another.min.css",
+                //"css/dbwebb-se.min.css",
+                "css/me-sida.min.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
@@ -36,8 +36,8 @@ return [
             "template" => "anax/v2/header/site_logo",
             "data" => [
                 "class" => "large",
-                "siteLogo"      => "image/theme/leaf_256x256.png",
-                "siteLogoAlt"   => "Löv",
+                "siteLogo"      => "image/theme/coding_64x64.png",
+                "siteLogoAlt"   => "Programmerare",
             ],
         ],
         [
@@ -45,9 +45,9 @@ return [
             "template" => "anax/v2/header/site_logo_text",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "oophp",
-                "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
-                "siteLogoTextIconAlt" => "Löv-bild",
+                "siteLogoText"  => "Me-oophp",
+                "siteLogoTextIcon" => "image/theme/coding_64x64.png",
+                "siteLogoTextIconAlt" => "Programmerare-bild",
             ],
         ],
         [

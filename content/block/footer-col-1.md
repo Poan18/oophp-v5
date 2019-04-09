@@ -1,3 +1,3 @@
-#### Footer col 1
+#### Jag
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Mitt namn är Pontus Andersson och går första året i webbprogrammering på Blekinges Tekniska Högskola.

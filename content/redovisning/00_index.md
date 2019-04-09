@@ -3,4 +3,4 @@
 Redovisningstexter
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/redovisning/00_index.md`.
+Här finner du redovisningstexter till respektive kursmoment. I navigeringsmenyn till vänster kan du klicka dig fram bland de olika kursmoment som har genomförts.
