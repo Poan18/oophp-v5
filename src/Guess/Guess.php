@@ -49,7 +49,7 @@ class Guess
      *
      * @return void
      */
-    public function random() : void
+    public function random()
     {
         $this->number = rand(1, 100);
     }
@@ -62,7 +62,7 @@ class Guess
      *
      * @return int as number of tries made.
      */
-    public function tries() : integer
+    public function tries()
     {
         return $this->tries;
     }
@@ -74,7 +74,7 @@ class Guess
      *
      * @return int as the secret number.
      */
-    public function number() : integer
+    public function number()
     {
         return $this->number;
     }
@@ -91,7 +91,7 @@ class Guess
      *
      * @return string to show the status of the guess made.
      */
-    public function makeGuess($number) : string
+    public function makeGuess($number)
     {
         $this->tries -= 1;
 
