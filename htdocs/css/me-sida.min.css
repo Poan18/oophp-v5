@@ -104,3 +104,36 @@ body {
 html {
     background-color: #2c2a2b;
 }
+
+hr::after {
+    background-color: #343233;
+}
+
+.game-container {
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.game-form {
+    margin-top: 10%;
+}
+
+.game-form input {
+    font-size: 120%;
+    border-radius: 7px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.game-form input:hover {
+    cursor: pointer;
+    background-color: #aaa;
+    color: #111;
+}
+
+@media screen and (max-width: 992px) {
+    .doGuess {
+        display: inherit;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
