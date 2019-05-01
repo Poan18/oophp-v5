@@ -16,3 +16,11 @@ Välkommen till spelet Tärningsspel 100
 I varje omgång kastar en spelare tärningarna tills hon väljer att stanna och spara poängen, eller tills det dyker upp en 1:a och hon förlorar alla poäng som samlats in i rundan. Rundan går då över till nästa spelare. Det gäller att komma först till 100.
 
 [Starta ett nytt spel!](dices/init)
+
+## Tärningsspel 100 version 2
+
+Välkommen till spelet Tärningsspel 100
+
+Denna version 2.0 vilket innehåller en smartare dator och ett histogram för varje kast.
+
+[Starta ett nytt spel!](dices_v2/init)
