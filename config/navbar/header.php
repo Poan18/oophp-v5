@@ -88,5 +88,10 @@ return [
             "url" => "spel",
             "title" => "Spela olika spel",
         ],
+        [
+            "text" => "Film",
+            "url" => "movie/show-all",
+            "title" => "Databas med filmer",
+        ],
     ],
 ];

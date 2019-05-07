@@ -137,3 +137,26 @@ hr::after {
         margin-top: 50px;
     }
 }
+
+
+/**
+ * Movie database picture
+ */
+img.thumb {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.movie-table {
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(58, 62, 77);
+    border: 5px solid black;
+    border-radius: 5px;
+    min-width: 100%;
+    padding: 10px;
+}
+
+.movie-table tr:hover{
+    background-color: black;
+}
