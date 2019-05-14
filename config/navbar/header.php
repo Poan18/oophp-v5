@@ -93,5 +93,15 @@ return [
             "url" => "movie/show-all",
             "title" => "Databas med filmer",
         ],
+        [
+            "text" => "Textfilter",
+            "url" => "textfilter",
+            "title" => "Textfilter",
+        ],
+        [
+            "text" => "CMS",
+            "url" => "cms/show-all",
+            "title" => "CMS",
+        ],
     ],
 ];

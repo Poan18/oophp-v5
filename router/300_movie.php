@@ -75,11 +75,15 @@ $app->router->get("movie/search-year", function () use ($app) {
         $res = $app->db->executeFetchAll($sql);
     }
 
-    $app->page->add("movie/header");
-    $app->page->add("movie/search-year");
-    $app->page->add("movie/show-all", [
+    $data = [
         "resultset" => $res,
-    ]);
+        "year1" => $year1,
+        "year2" => $year2
+    ];
+
+    $app->page->add("movie/header");
+    $app->page->add("movie/search-year", $data);
+    $app->page->add("movie/show-all", $data);
 
     return $app->page->render([
         "title" => $title,
